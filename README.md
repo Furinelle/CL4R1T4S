@@ -19,6 +19,13 @@
 - `*.zh.md`：简体中文翻译版本。
 - 原始文件名会尽量保留，便于对照原文和译文。
 
+## 翻译约定
+
+- Claude、Anthropic、API、MCP、Artifacts、Skills、Claude Code、Claude Platform、Claude Cowork、模型字符串和工具函数名等专有名词或接口标识默认保留原文。
+- Markdown 结构标题优先保留原始标签，并在后面补充中文释义，例如 `## claude_behavior（Claude 行为）`，方便同时阅读译文和追踪原始提示词结构。
+- 解释性正文尽量译成自然中文；JSON schema、枚举值、参数名、模型字符串和代码块中作为原始定义存在的英文通常不翻译。
+- 对存在官方大小写或产品写法的名称，尽量保持原写法，例如 Claude in PowerPoint。
+
 ## 说明
 
 本项目是非官方学习与研究仓库，与 Anthropic 无关，也不应被视为 Anthropic 产品文档或当前模型行为的权威来源。
